@@ -1,0 +1,65 @@
+/* SearchBar.css */
+
+.SearchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.SearchBar-sort-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.SearchBar-sort-options ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.SearchBar-sort-options li {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.SearchBar-sort-options li.active {
+  color: #ff8c00; /* Highlight the active sorting option */
+}
+
+.SearchBar-fields {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.SearchBar-fields input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.SearchBar-submit {
+  margin-top: 10px;
+}
+
+.SearchBar-submit button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SearchBar-submit button:hover {
+  background-color: #ff6500;
+}

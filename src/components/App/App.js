@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 import Yelp from '../../util/Yelp';
+import './App.css';
+
 
 const App = () => {
   const [businesses, setBusinesses] = useState([]);

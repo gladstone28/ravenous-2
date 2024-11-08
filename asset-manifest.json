@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ravenous/static/css/main.35cbeb7d.css",
+    "main.js": "/ravenous/static/js/main.1ac2364e.js",
+    "index.html": "/ravenous/index.html",
+    "main.35cbeb7d.css.map": "/ravenous/static/css/main.35cbeb7d.css.map",
+    "main.1ac2364e.js.map": "/ravenous/static/js/main.1ac2364e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35cbeb7d.css",
+    "static/js/main.1ac2364e.js"
+  ]
+}

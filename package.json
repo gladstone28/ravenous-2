@@ -1,5 +1,5 @@
 {
-  "name": "ravenous",
+  "name": "ravenous-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,5 +30,5 @@
       "last 1 safari version"
     ]
   },
-"homepage": "https://gladstone28.github.io/ravenous"
+"homepage": "https://gladstone28.github.io/ravenous-2"
 }
